@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@300;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header, body{ font-family: 'Roboto', sans-serif;}
+
+nav{
+    background-color: rgba(255, 0, 0, 0.473);
+    filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    z-index: 10000;
+}
+
+a{
+    padding: 0px 40px;
+    padding-top: 15px; 
+}
+
+
+.navitem{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.navitem:hover{
+    color: rgb(131, 128, 123);
+    transition: 0.6s;
+}
+
+#subtitulo{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    font-family:'Roboto', sans-serif ;
+    
+}
+header{
+    height: 100vh;
+    background-image: url("images/nintendo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+#animation{
+    text-align: center;
+}
+
+#mario{
+    width: 200px;
+}
+
+#mario:hover{
+    cursor: pointer;
+}
+#logo{
+    display: flex;
+    margin: 0 auto; 
+    width: 25%;
+    justify-content: center;
+    margin-top: 300px;
+    transition: 1s;
+}
+
+#logo:hover{
+    transition: 1s;
+    width: 30%;
+}
+
+.titulo h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: rgb(255, 0, 0);
+}
+
+
+
+#parrafo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#gridimage{
+    width: 100%;
+    
+}
+
+#padre{
+    display:block;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+}
+
+.card-image{
+    width: 250px;
+   display: block;
+   margin: 0 auto;
+   padding:10px;
+}
+
+.card-text{
+    padding:20px;
+}
+
+.card{
+    border: 1px solid rgba(0,0,0,.125);
+    min-height: 500px;
+    margin:20px;
+    
+}
+
+.card:hover{
+  
+}
+
+.container-fluid {
+    padding:30px;
+}
+
+#video{
+    text-align: center;
+}
+
+.footer {
+    background-color: #EB2A2A;
+    height:30vh;
+    
+}
+
+
+.footerrow{
+    height: 20vh;
+}
+
+i{
+    color: white;
+    font-size: 40px;
+    transition: 0.4s;
+}
+
+i:hover{
+    font-size: 50px;
+    transition: 0.4s;
+}
+
+.footerdad {
+    align-items: center;
+    text-align: center;
+}
+
+#footerparagraph{
+    background-color: rgb(206, 36, 36);
+    height:35px;
+    padding:6px;
+    color: white;
+}
